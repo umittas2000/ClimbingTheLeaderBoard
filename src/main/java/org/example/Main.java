@@ -1,8 +1,7 @@
 package org.example;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.sql.SQLOutput;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,19 +12,33 @@ public class Main {
         //At least 1 item will be in both lists.
 
         //Initialization and sample dataset prep
-        List<Integer> ranks = Arrays.asList(100,100,90,80,70,60);
-        List<Integer> player = Arrays.asList(5,65,120);
-        //Expected output [6,5,1]
+        List<Integer> ranks = Arrays.asList(100,100,50,40,40,20,10);
+        List<Integer> player = Arrays.asList(5,25,50,120);
 
-        List<Integer> result = rankedList(ranks,player);
-
-        System.out.println(result);
+        System.out.println(rankedList(ranks,player));
+        //Expected output [6, 4, 2, 1]
     }
 
     public static List<Integer> rankedList(List<Integer> ranks, List<Integer> player){
 
+        // Convert to Unique List
+        Set<Integer>  uniqueList = new LinkedHashSet<>(ranks);
+        List<Integer> ranksNew = new ArrayList<>(uniqueList);
         List<Integer> result = new ArrayList<>();
-        result.add(1);
+
+        for(int i=0;i<player.size();i++){
+            if(uniqueList.contains(player.get(i))==false){
+                ranksNew.add(player.get(i));
+                Collections.sort(ranksNew,Collections.reverseOrder());
+                result.add(ranksNew.indexOf(player.get(i))+1);
+                //System.out.println(player.get(i)+ " - "+ (ranksNew.indexOf(player.get(i))+1));
+                // System.out.println(ranksNew);
+            }else{
+                result.add(ranksNew.indexOf(player.get(i))+1);
+                //System.out.println(player.get(i)+ " - "+ (ranksNew.indexOf(player.get(i))+1));
+                //System.out.println(ranksNew);
+            }
+        }
 
         return result;
     }
