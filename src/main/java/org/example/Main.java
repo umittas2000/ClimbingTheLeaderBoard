@@ -21,25 +21,42 @@ public class Main {
 
     public static List<Integer> rankedList(List<Integer> ranks, List<Integer> player){
 
-        // Convert to Unique List
-        Set<Integer>  uniqueList = new LinkedHashSet<>(ranks);
-        List<Integer> ranksNew = new ArrayList<>(uniqueList);
+        int counter=0;
+        boolean flag=false;
         List<Integer> result = new ArrayList<>();
+        List<Integer> ranksNew = new ArrayList<>(ranks);
 
-        for(int i=0;i<player.size();i++){
-            if(uniqueList.contains(player.get(i))==false){
-                ranksNew.add(player.get(i));
-                Collections.sort(ranksNew,Collections.reverseOrder());
-                result.add(ranksNew.indexOf(player.get(i))+1);
-                //System.out.println(player.get(i)+ " - "+ (ranksNew.indexOf(player.get(i))+1));
-                // System.out.println(ranksNew);
-            }else{
-                result.add(ranksNew.indexOf(player.get(i))+1);
-                //System.out.println(player.get(i)+ " - "+ (ranksNew.indexOf(player.get(i))+1));
-                //System.out.println(ranksNew);
+        for(int i=0;i<player.size();i++)
+        {
+            int num=player.get(i);
+            int prevNum=-1;
+            for(int k=0;k<ranks.size();k++){
+                int rankNum = ranks.get(k);
+                if(k>0){
+                    prevNum=ranks.get(k-1);
+                }
+
+                if(prevNum!=ranks.get(k)){
+                    counter++;
+                }
+
+                if(player.get(i)>=ranksNew.get(k)){
+                    result.add(counter);
+                    ranksNew.add(k,player.get(i));
+                    flag=true;
+                    break;
+                }
             }
-        }
 
+            if(flag==false){
+                counter++;
+                ranksNew.add(player.get(i));
+                result.add(counter);
+            }
+
+            counter=0;
+            flag=false;
+        }
         return result;
     }
 }
