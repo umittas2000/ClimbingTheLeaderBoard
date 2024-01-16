@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68206cef-7da4-403f-a157-9db366b15e87" name="Changes" comment="Testing the algorithm" />
+    <list default="true" id="68206cef-7da4-403f-a157-9db366b15e87" name="Changes" comment="Testing the algorithm">
+      <change afterPath="$PROJECT_DIR$/src/unitTests/java/unitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,26 +42,69 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RunManager" selected="JUnit.unitTests">
+    <configuration name="unitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClimbingTheLeaderBoard" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="unitTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="unitTests.negative_DataSet5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClimbingTheLeaderBoard" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="unitTests" />
+      <option name="METHOD_NAME" value="negative_DataSet5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="unitTests.positive_DataSet1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClimbingTheLeaderBoard" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="unitTests" />
+      <option name="METHOD_NAME" value="positive_DataSet1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="unitTests.positive_DataSet3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClimbingTheLeaderBoard" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="unitTests" />
+      <option name="METHOD_NAME" value="positive_DataSet3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="unitTests.positive_DataSet4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClimbingTheLeaderBoard" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="unitTests" />
+      <option name="METHOD_NAME" value="positive_DataSet4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.unitTests" />
+        <item itemvalue="JUnit.unitTests.positive_DataSet1" />
+        <item itemvalue="JUnit.unitTests.negative_DataSet5" />
+        <item itemvalue="JUnit.unitTests.positive_DataSet4" />
+        <item itemvalue="JUnit.unitTests.positive_DataSet3" />
       </list>
     </recent_temporary>
   </component>
@@ -62,6 +117,8 @@
       <option name="presentableId" value="Default" />
       <updated>1705242425959</updated>
       <workItem from="1705242429260" duration="10263000" />
+      <workItem from="1705370181738" duration="249000" />
+      <workItem from="1705445351876" duration="3424000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1705243251661</created>
@@ -77,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705253456698</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Testing the algorithm">
+      <created>1705370391985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705370391985</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
