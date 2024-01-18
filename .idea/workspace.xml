@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68206cef-7da4-403f-a157-9db366b15e87" name="Changes" comment="Testing the algorithm">
-      <change afterPath="$PROJECT_DIR$/src/unitTests/java/unitTests.java" afterDir="false" />
+    <list default="true" id="68206cef-7da4-403f-a157-9db366b15e87" name="Changes" comment="Unit tests coded">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unitTests/java/unitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTests/java/unitTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +32,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.unitTests">
     <configuration name="unitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClimbingTheLeaderBoard" />
@@ -118,7 +116,8 @@
       <updated>1705242425959</updated>
       <workItem from="1705242429260" duration="10263000" />
       <workItem from="1705370181738" duration="249000" />
-      <workItem from="1705445351876" duration="3424000" />
+      <workItem from="1705445351876" duration="3705000" />
+      <workItem from="1705541854660" duration="224000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1705243251661</created>
@@ -141,7 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705370391985</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Code Refactored">
+      <created>1705448830000</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705448830000</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Unit tests coded">
+      <created>1705448861440</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705448861440</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +174,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Testing the algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing the algorithm" />
+    <MESSAGE value="Code Refactored" />
+    <MESSAGE value="Unit tests coded" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit tests coded" />
   </component>
 </project>
