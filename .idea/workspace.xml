@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68206cef-7da4-403f-a157-9db366b15e87" name="Changes" comment="Unit tests coded">
+    <list default="true" id="68206cef-7da4-403f-a157-9db366b15e87" name="Changes" comment="2 more Unit tests added from hackerRank sample data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unitTests/java/unitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTests/java/unitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +118,8 @@
       <workItem from="1705370181738" duration="249000" />
       <workItem from="1705445351876" duration="3705000" />
       <workItem from="1705541854660" duration="224000" />
+      <workItem from="1705542087162" duration="1233000" />
+      <workItem from="1705626743692" duration="680000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1705243251661</created>
@@ -154,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705448861440</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2 more Unit tests added from hackerRank sample data">
+      <created>1705542124115</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705542124115</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +185,7 @@
     <MESSAGE value="Testing the algorithm" />
     <MESSAGE value="Code Refactored" />
     <MESSAGE value="Unit tests coded" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit tests coded" />
+    <MESSAGE value="2 more Unit tests added from hackerRank sample data" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 more Unit tests added from hackerRank sample data" />
   </component>
 </project>

@@ -20,6 +20,7 @@ public class Main {
     }
 
     public static List<Integer> rankedList(List<Integer> ranks, List<Integer> player){
+        //note to myself, increase performance of below code...
 
         int counter=0;
         boolean flag=false;
